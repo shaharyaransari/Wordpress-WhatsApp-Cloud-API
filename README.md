@@ -52,8 +52,8 @@ $components = [
     [
         "type" => "body",
         "parameters" => [
-            ["type" => "text", "text" => "John Doe" , param = "name"], // Name
-            ["type" => "text", "text" => "Order #12345" , param = "order_details"], // Order Details
+            ["type" => "text", "text" => "John Doe" , "parameter_name" = "name"], // Name
+            ["type" => "text", "text" => "Order #12345" , "parameter_name" = "order_details"], // Order Details
         ]
     ]
 ];
